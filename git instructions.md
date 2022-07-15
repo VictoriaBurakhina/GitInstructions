@@ -52,7 +52,7 @@
 
 * *git push origin master* - c помощью данной команды мы заливаем все изменения на сервер в ветку master.
 
-* *git push origin master* -здесь же мы наоборот стягиваем все внесенные изменения из ветки master на удаленном сервере.
+* *git pull origin master* -здесь же мы наоборот стягиваем все внесенные изменения из ветки master на удаленном сервере.
 
 * *git remote add* newRepository https://github.com/Andreygribin1/test1.git - здесь мы добавили новый репозиторий с названием newRepository и присвоили ему адрес https://github.com/Andreygribin1/test1.git. Теперь в результате выполнения команды git remote, мы увидим в списке наш репозиторий newRepository.
 
@@ -61,5 +61,6 @@
 * *git remote rm myOrigin* - здесь наш репозиторий myOrigin будет успешно удален. 
 
 * *кнопка Fork* - создание копии репозитория.
+* 
 
 - Для дальнейшей информации можете пройти по ссылке https://proglib.io/p/git-for-half-an-hour
